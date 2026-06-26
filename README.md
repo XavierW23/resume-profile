@@ -42,6 +42,10 @@ The `site/` folder contains a Cloudflare Workers-compatible portfolio website bu
 - resume download
 - GitHub and LinkedIn links
 
+Public interview URL:
+
+https://xavierw23.github.io/resume-profile/
+
 ## Architecture Docs
 
 The architecture docs are written for interviews. They explain system design, state boundaries, runtime monitoring, approval gates, and reliability tradeoffs without exposing proprietary code.
