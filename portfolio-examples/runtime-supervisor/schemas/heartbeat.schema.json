@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RuntimeHeartbeat",
+  "type": "object",
+  "required": ["runner_id", "status", "last_seen_utc", "active_task", "attempt"],
+  "properties": {
+    "runner_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["starting", "running", "idle", "recovering", "failed", "stopped"]
+    },
+    "last_seen_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "active_task": {
+      "type": ["string", "null"]
+    },
+    "attempt": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "last_error": {
+      "type": ["string", "null"]
+    },
+    "recovery_action": {
+      "type": ["string", "null"]
+    }
+  }
+}
+

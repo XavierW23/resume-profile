@@ -1,0 +1,29 @@
+name: Scheduled Automation Example
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 13 * * 1-5"
+
+jobs:
+  run-automation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run example automation
+        run: python scripts/run_example.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: automation-output
+          path: artifacts/
+

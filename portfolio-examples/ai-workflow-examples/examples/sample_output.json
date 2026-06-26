@@ -1,0 +1,19 @@
+{
+  "business_name": "Example Roofing",
+  "industry": "Local roofing contractor",
+  "observed_issue": "Homepage does not clearly communicate emergency repair availability.",
+  "recommended_action": "Create a redesigned homepage concept focused on emergency repairs, insurance support, local trust signals, and direct call-to-action placement.",
+  "evidence": [
+    "No emergency service callout visible above the fold",
+    "Phone number is present but not visually prioritized",
+    "Service area is only mentioned near the footer"
+  ],
+  "validation": {
+    "evidence_backed": true,
+    "safe_for_outreach": true,
+    "contains_unverified_claims": false
+  },
+  "requires_review": true,
+  "confidence": 0.86
+}
+
