@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.log
+
+site/.vinext/
+site/.next/
+site/dist/
+site/node_modules/
+site/dev-server*.log
+
