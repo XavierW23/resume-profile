@@ -1,0 +1,10 @@
+{
+  "runner_id": "local-runner",
+  "status": "running",
+  "last_seen_utc": "2026-06-26T16:00:00Z",
+  "active_task": "example-task",
+  "attempt": 1,
+  "last_error": null,
+  "recovery_action": null
+}
+

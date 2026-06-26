@@ -30,6 +30,10 @@ flowchart LR
 
 See `examples/evidence_capture_flow.md`.
 
+## Example Code
+
+`examples/playwright_evidence_capture.py` shows the shape of a public-safe evidence capture result. It does not include production accounts, target URLs, prompts, or customer screenshots.
+
 ## Engineering Notes
 
 Browser automation becomes production-grade when it treats the browser as an unreliable runtime:
@@ -43,4 +47,3 @@ Browser automation becomes production-grade when it treats the browser as an unr
 ## Public Safety
 
 This repository should not include real account credentials, real target sites, production prompts, customer screenshots, or proprietary business rules.
-

@@ -32,6 +32,12 @@ flowchart TD
 
 See `schemas/heartbeat.schema.json` for a minimal runtime state contract.
 
+## Example Code
+
+- `src/supervisor.py` evaluates heartbeat freshness and returns a recovery decision.
+- `examples/heartbeat.json` shows a public-safe heartbeat artifact.
+- `tests/test_supervisor.py` demonstrates healthy and stale runner behavior.
+
 ## Engineering Notes
 
 Long-running automation needs a source of truth outside the process itself. A heartbeat file gives the supervisor a simple way to answer:
@@ -45,4 +51,3 @@ Long-running automation needs a source of truth outside the process itself. A he
 ## Public Safety
 
 This repo is intentionally generic and excludes production Agency OS runner code, Slack webhooks, service names, account IDs, and customer data.
-

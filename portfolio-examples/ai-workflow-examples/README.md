@@ -37,6 +37,12 @@ flowchart LR
 }
 ```
 
+## Example Code
+
+- `src/build_prompt_contract.py` builds a public-safe prompt/output contract from evidence.
+- `src/validate_output.py` validates structured JSON outputs before downstream automation.
+- `examples/sample_output.json` shows a sanitized example artifact.
+
 ## Engineering Notes
 
 The key idea is not simply calling an AI API. The engineering value is in the contract around the model:
@@ -56,4 +62,3 @@ This repository intentionally excludes:
 - Proprietary Agency OS logic
 - Credentials
 - Private webhook URLs
-
