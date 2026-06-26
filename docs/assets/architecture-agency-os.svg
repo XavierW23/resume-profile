@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Agency OS public-safe architecture diagram</title>
+  <desc id="desc">Flow from prospect intake through AI workflow, browser automation, QA, approval delivery, state, learning, and reporting.</desc>
+  <rect width="920" height="560" fill="#ffffff"/>
+  <rect x="24" y="24" width="872" height="512" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="56" y="66" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Agency OS Architecture</text>
+  <text x="56" y="94" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="14">Public-safe system shape for autonomous business operations</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14">
+    <rect x="56" y="150" width="160" height="72" rx="8" fill="#0f172a"/>
+    <text x="78" y="181" fill="#ffffff" font-weight="700">Prospect Intake</text>
+    <text x="78" y="203" fill="#cbd5e1">evidence + context</text>
+
+    <rect x="286" y="150" width="160" height="72" rx="8" fill="#0f766e"/>
+    <text x="309" y="181" fill="#ffffff" font-weight="700">AI Workflow</text>
+    <text x="309" y="203" fill="#ccfbf1">structured outputs</text>
+
+    <rect x="516" y="150" width="160" height="72" rx="8" fill="#1d4ed8"/>
+    <text x="536" y="181" fill="#ffffff" font-weight="700">Browser Operator</text>
+    <text x="536" y="203" fill="#dbeafe">action + evidence</text>
+
+    <rect x="704" y="256" width="136" height="72" rx="8" fill="#7c2d12"/>
+    <text x="729" y="287" fill="#ffffff" font-weight="700">Preview QA</text>
+    <text x="729" y="309" fill="#fed7aa">validation gates</text>
+
+    <rect x="516" y="366" width="160" height="72" rx="8" fill="#854d0e"/>
+    <text x="548" y="397" fill="#ffffff" font-weight="700">Approval</text>
+    <text x="548" y="419" fill="#fef3c7">Slack routing</text>
+
+    <rect x="286" y="366" width="160" height="72" rx="8" fill="#365314"/>
+    <text x="312" y="397" fill="#ffffff" font-weight="700">Learning State</text>
+    <text x="312" y="419" fill="#dcfce7">outcomes + feedback</text>
+
+    <rect x="56" y="366" width="160" height="72" rx="8" fill="#312e81"/>
+    <text x="86" y="397" fill="#ffffff" font-weight="700">Reports</text>
+    <text x="86" y="419" fill="#e0e7ff">runtime truth</text>
+
+    <line x1="216" y1="186" x2="286" y2="186" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="446" y1="186" x2="516" y2="186" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M676 186 C734 188 772 215 772 256" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M772 328 C760 386 718 402 676 402" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="516" y1="402" x2="446" y2="402" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="286" y1="402" x2="216" y2="402" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M136 366 C115 300 115 245 136 222" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+</svg>

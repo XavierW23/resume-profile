@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Xavier White | Autonomous AI Systems</title>
+    <meta
+      name="description"
+      content="Portfolio for Xavier White, software engineer specializing in autonomous AI systems, platform engineering, cloud automation, and runtime reliability."
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <nav class="nav-inner wrap">
+        <a href="#top"><strong>Xavier White</strong></a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#architecture">Architecture</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow">Software Engineer specializing in Autonomous AI Systems</p>
+            <h1>Building production AI systems that combine automation, cloud infrastructure, and runtime reliability.</h1>
+            <p class="lead">
+              I design intelligent software systems across AI workflows, browser automation, cloud identity, developer tooling, and operational monitoring. My work focuses on turning useful automation into production systems that can be observed, recovered, and trusted.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="./assets/Xavier_White_Master_Resume.pdf">Download Resume</a>
+              <a class="button" href="https://github.com/XavierW23/resume-profile">View GitHub</a>
+              <a class="button" href="mailto:Xavierwhite352@gmail.com">Contact</a>
+            </div>
+          </div>
+
+          <aside class="panel">
+            <div class="panel-head">
+              <div>
+                <p style="color:#aeb9c9;margin-bottom:6px">Current focus</p>
+                <h3 style="margin:0">Autonomous AI Operations</h3>
+              </div>
+              <span class="tag">Production Systems</span>
+            </div>
+            <div class="strengths">
+              <div class="strength"><span class="dot"></span><span>Production AI workflow orchestration</span></div>
+              <div class="strength"><span class="dot"></span><span>Runtime monitoring and recovery</span></div>
+              <div class="strength"><span class="dot"></span><span>Browser automation with evidence capture</span></div>
+              <div class="strength"><span class="dot"></span><span>Cloud identity and Microsoft Graph automation</span></div>
+              <div class="strength"><span class="dot"></span><span>CI/CD and scheduled automation</span></div>
+              <div class="strength"><span class="dot"></span><span>JSON state management and validation</span></div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="proof-band">
+        <div class="proof-grid wrap">
+          <p class="proof">Reduced more than 5,000 stale Microsoft Entra ID objects through Microsoft Graph automation.</p>
+          <p class="proof">Built Windows NSSM-backed supervision for continuous local AI/browser automation.</p>
+          <p class="proof">Created approval and learning loops that persist human decisions as structured state.</p>
+          <p class="proof">Designed public-safe examples that demonstrate architecture without exposing proprietary Agency OS logic.</p>
+        </div>
+      </section>
+
+      <section id="projects" class="section wrap">
+        <p class="eyebrow">Featured projects</p>
+        <h2>Systems I can discuss in interviews</h2>
+        <p class="section-copy">
+          Agency OS remains proprietary. The projects below focus on the architecture, engineering decisions, and public-safe implementation patterns behind the work.
+        </p>
+
+        <div class="projects">
+          <article class="card">
+            <p class="label">Proprietary AI operations platform</p>
+            <h3>Agency OS</h3>
+            <dl>
+              <dt>Problem</dt>
+              <dd>Manual business development workflows were slow, inconsistent, and hard to monitor end to end.</dd>
+              <dt>Solution</dt>
+              <dd>Architected a production AI operations platform coordinating prospect discovery, evidence capture, AI reasoning, browser automation, QA validation, Slack approvals, and outreach readiness.</dd>
+              <dt>Stack</dt>
+              <dd>Python, OpenAI API, GitHub Actions, Make, Slack, Google Sheets, Chrome automation, REST APIs, JSON, Windows services.</dd>
+            </dl>
+          </article>
+
+          <article class="card">
+            <p class="label">Production reliability layer</p>
+            <h3>Runtime Supervisor</h3>
+            <dl>
+              <dt>Problem</dt>
+              <dd>Long-running AI and browser automation can stall, lose session state, or fail silently without an external source of truth.</dd>
+              <dt>Solution</dt>
+              <dd>Built a supervision layer with JSON heartbeats, stale-state detection, failure classification, recovery decisions, runtime logs, and Slack state reporting.</dd>
+              <dt>Stack</dt>
+              <dd>Python, NSSM, Windows services, JSON heartbeats, logging, retry logic, Chrome runtime monitoring.</dd>
+            </dl>
+          </article>
+
+          <article class="card">
+            <p class="label">Automated briefing pipeline</p>
+            <h3>AI Market Intelligence</h3>
+            <dl>
+              <dt>Problem</dt>
+              <dd>Market updates were fragmented across data sources and needed to be summarized into decision-ready briefings.</dd>
+              <dt>Solution</dt>
+              <dd>Built a scheduled reporting workflow that aggregates market data, economic events, and volatility signals into AI-generated HTML briefings.</dd>
+              <dt>Stack</dt>
+              <dd>Python, GitHub Actions, REST APIs, HTML, AI summarization.</dd>
+            </dl>
+          </article>
+
+          <article class="card">
+            <p class="label">Cloud identity engineering</p>
+            <h3>Enterprise Identity Automation</h3>
+            <dl>
+              <dt>Problem</dt>
+              <dd>Enterprise identity environments accumulate stale objects and manual operations that create compliance and reliability risk.</dd>
+              <dt>Solution</dt>
+              <dd>Developed PowerShell and Microsoft Graph automation for stale object cleanup, identity lifecycle management, and cloud compliance workflows.</dd>
+              <dt>Stack</dt>
+              <dd>PowerShell, Microsoft Graph API, Microsoft Entra ID, Azure DevOps.</dd>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <section id="architecture" class="architecture section">
+        <div class="wrap">
+          <p class="eyebrow">Architecture</p>
+          <h2>Diagrams for system design conversations</h2>
+          <p class="section-copy">
+            These diagrams are intentionally public-safe. They explain system shape, control flow, state boundaries, and reliability decisions without exposing proprietary Agency OS implementation.
+          </p>
+          <div class="diagram-grid">
+            <figure>
+              <img src="./assets/architecture-agency-os.svg" alt="Agency OS public-safe architecture diagram" />
+              <figcaption>Agency OS: autonomous business operations with human approval and stateful learning loops.</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/architecture-runtime-supervisor.svg" alt="Runtime Supervisor architecture diagram" />
+              <figcaption>Runtime Supervisor: heartbeat monitoring, failure classification, recovery actions, and operational reporting.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section wrap">
+        <div class="experience-grid">
+          <div>
+            <p class="eyebrow">Experience</p>
+            <h2>Enterprise cloud background, AI systems focus.</h2>
+          </div>
+          <div class="timeline">
+            <article class="card">
+              <h3>AI Systems Engineer, Agency OS (Founder)</h3>
+              <p class="section-copy">May 2026 - Present</p>
+              <p class="section-copy">Architected and built a production AI operations platform for autonomous customer acquisition workflows, runtime supervision, browser automation, QA validation, approval routing, and operational learning.</p>
+            </article>
+            <article class="card">
+              <h3>Cloud Engineer, Chevron U.S.A. Inc.</h3>
+              <p class="section-copy">June 2023 - April 2026</p>
+              <p class="section-copy">Built Microsoft Graph and PowerShell automation for enterprise identity compliance, Conditional Access, Azure DevOps pipelines, and cloud identity operations.</p>
+            </article>
+            <article class="card">
+              <h3>Systems Support Analyst, Acumera</h3>
+              <p class="section-copy">July 2022 - May 2023</p>
+              <p class="section-copy">Supported POS systems, server infrastructure, networking equipment, desktop environments, and production incident resolution across retail deployments.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="footer-inner wrap">
+        <div>
+          <h2>Ready for AI, platform, and cloud engineering conversations.</h2>
+          <p class="section-copy">Houston, TX | Xavierwhite352@gmail.com | 352-514-8080</p>
+        </div>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/XavierW23">GitHub</a>
+          <a class="button" href="https://linkedin.com/in/xavierwhite">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
